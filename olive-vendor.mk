@@ -502,7 +502,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_s5k4h7_sunny_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_s5k4h7_sunny_chromatix.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_s5k4h7_sunny_chromatix_factory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_s5k4h7_sunny_chromatix_factory.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/olive_s5k4h7_sunny_chromatix_india.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olive_s5k4h7_sunny_chromatix_india.xml \
+    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olivelite_arc_hdr_params_i.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olivelite_arc_hdr_params_i.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/olivelite_imx486_sunny_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olivelite_imx486_sunny_chromatix.xml \
+    vendor/xiaomi/olive/proprietary/vendor/etc/camera/olivewood_arc_hdr_params_i.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olivewood_arc_hdr_params_i.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/olivewood_gc02m1_sunny_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olivewood_gc02m1_sunny_chromatix.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/olivewood_gc02m1_sunny_chromatix_factory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olivewood_gc02m1_sunny_chromatix_factory.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/olivewood_gc02m1_sunny_chromatix_indonesia.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/olivewood_gc02m1_sunny_chromatix_indonesia.xml \
@@ -578,6 +580,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/s5k3p3sm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p3sm_chromatix.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/s5k3p8sp_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p8sp_chromatix.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/camera/s5k5e9yu05_mono_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k5e9yu05_mono_chromatix.xml \
+    vendor/xiaomi/olive/proprietary/vendor/etc/cameranew_4x_down_morpho_hht_params_omnivision_13b10_i_cn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cameranew_4x_down_morpho_hht_params_omnivision_13b10_i_cn.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile2.xml \
     vendor/xiaomi/olive/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile3.xml \
@@ -678,6 +681,18 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/etc/thermal-engine-normal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-normal.conf \
     vendor/xiaomi/olive/proprietary/vendor/etc/thermal-engine-sgame.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-sgame.conf \
     vendor/xiaomi/olive/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
+    vendor/xiaomi/olive/proprietary/vendor/etc/westalgo/dof_model/cache_data:$(TARGET_COPY_OUT_VENDOR)/etc/westalgo/dof_model/cache_data \
+    vendor/xiaomi/olive/proprietary/vendor/etc/westalgo/dof_model/megviisegment_model:$(TARGET_COPY_OUT_VENDOR)/etc/westalgo/dof_model/megviisegment_model \
+    vendor/xiaomi/olive/proprietary/vendor/etc/westalgo/dof_model/model_mdl_cache:$(TARGET_COPY_OUT_VENDOR)/etc/westalgo/dof_model/model_mdl_cache \
+    vendor/xiaomi/olive/proprietary/vendor/etc/westalgo/dof_model/olivewood/cache_data:$(TARGET_COPY_OUT_VENDOR)/etc/westalgo/dof_model/olivewood/cache_data \
+    vendor/xiaomi/olive/proprietary/vendor/etc/westalgo/dof_model/olivewood/megviisegment_model:$(TARGET_COPY_OUT_VENDOR)/etc/westalgo/dof_model/olivewood/megviisegment_model \
+    vendor/xiaomi/olive/proprietary/vendor/etc/westalgo/dof_model/olivewood/model_mdl_cache:$(TARGET_COPY_OUT_VENDOR)/etc/westalgo/dof_model/olivewood/model_mdl_cache \
+    vendor/xiaomi/olive/proprietary/vendor/etc/westalgo/rt_model/mask/cache_data:$(TARGET_COPY_OUT_VENDOR)/etc/westalgo/rt_model/mask/cache_data \
+    vendor/xiaomi/olive/proprietary/vendor/etc/westalgo/rt_model/mask/megviisegment_model:$(TARGET_COPY_OUT_VENDOR)/etc/westalgo/rt_model/mask/megviisegment_model \
+    vendor/xiaomi/olive/proprietary/vendor/etc/westalgo/rt_model/mask/model_mdl_cache:$(TARGET_COPY_OUT_VENDOR)/etc/westalgo/rt_model/mask/model_mdl_cache \
+    vendor/xiaomi/olive/proprietary/vendor/etc/westalgo/rt_model/score/cache_data:$(TARGET_COPY_OUT_VENDOR)/etc/westalgo/rt_model/score/cache_data \
+    vendor/xiaomi/olive/proprietary/vendor/etc/westalgo/rt_model/score/megviisegment_model:$(TARGET_COPY_OUT_VENDOR)/etc/westalgo/rt_model/score/megviisegment_model \
+    vendor/xiaomi/olive/proprietary/vendor/etc/westalgo/rt_model/score/model_mdl_cache:$(TARGET_COPY_OUT_VENDOR)/etc/westalgo/rt_model/score/model_mdl_cache \
     vendor/xiaomi/olive/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
     vendor/xiaomi/olive/proprietary/vendor/firmware/a225_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225_pfp.fw \
     vendor/xiaomi/olive/proprietary/vendor/firmware/a225_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225_pm4.fw \
@@ -5383,6 +5398,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib/libvideoutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideoutils.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libvpplibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpplibrary.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libvqzip.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvqzip.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libwa_dof.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwa_dof.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libwa_megface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwa_megface.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib/libwa_rtdof.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwa_rtdof.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libwfdcommonutils_proprietary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdcommonutils_proprietary.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libwfdhaldsmanager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdhaldsmanager.so \
     vendor/xiaomi/olive/proprietary/vendor/lib/libwfdhdcpcp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwfdhdcpcp.so \
@@ -5782,6 +5800,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olive/proprietary/vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so \
     vendor/xiaomi/olive/proprietary/vendor/lib64/libvideoutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideoutils.so \
     vendor/xiaomi/olive/proprietary/vendor/lib64/libvpplibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvpplibrary.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib64/libwa_dof.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwa_dof.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib64/libwa_megface.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwa_megface.so \
+    vendor/xiaomi/olive/proprietary/vendor/lib64/libwa_rtdof.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwa_rtdof.so \
     vendor/xiaomi/olive/proprietary/vendor/lib64/libwfdhdcpcp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwfdhdcpcp.so \
     vendor/xiaomi/olive/proprietary/vendor/lib64/libwms.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwms.so \
     vendor/xiaomi/olive/proprietary/vendor/lib64/libwqe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwqe.so \
